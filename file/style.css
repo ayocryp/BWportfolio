@@ -1,0 +1,248 @@
+body {
+  background: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  font-family: "KoHo", sans-serif;
+  font-family: "PT Sans Caption", sans-serif;
+  color: rgb(141, 141, 141);
+  overflow-x: hidden;
+}
+
+/* nav section */
+
+.nav-li {
+  width: 130px;
+  background-color: rgb(14, 14, 14);
+  height: 545px;
+}
+
+.nav-link {
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background: white;
+  color: black;
+}
+
+.nav-link:active {
+  background: black;
+}
+
+#nav-img {
+  width: 130px;
+  margin-top: 50px;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+/* Hero */
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-left: 550px;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: lighter;
+  line-height: 30px;
+}
+
+.description {
+  color: #fff;
+  text-align: center;
+  margin-left: 550px;
+  margin-top: 2px;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 45px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  margin-left: 500px;
+}
+nav {
+  position: fixed;
+}
+/* About me */
+.about-me {
+  width: 100%;
+  margin-left: 340px;
+  font-style: normal;
+  font-weight: 100;
+}
+
+#hr {
+  width: 200px;
+  color: #fff;
+  margin: 0;
+}
+
+h2,
+h3 {
+  font-weight: 100;
+  color: #fff;
+}
+
+.abt-text {
+  letter-spacing: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  font-weight: 100px;
+  font-size: 15px;
+  margin-top: 25px;
+  font-style: italic;
+}
+
+#skills {
+  padding-top: 25px;
+  padding-bottom: 55px;
+}
+
+.skill-ctn {
+  width: 60%;
+  background-color: #fff;
+}
+
+.html {
+  color: black;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white;
+  font-size: larger;
+  font-weight: 100;
+}
+
+.html {
+  width: 89%;
+  background-color: #19a677;
+}
+.css {
+  width: 70%;
+  background: #a65119;
+}
+.js {
+  width: 90%;
+  background: #19a677;
+}
+
+.html:hover {
+  background: #1966bd;
+  transition: 1s ease-in-out;
+}
+
+.css:hover {
+  background: #7e3291;
+  transition: 1s ease-in-out;
+}
+.js:hover {
+  background: #a12b84;
+  transition: 1s ease-in-out;
+}
+
+.html-text,
+.css-text,
+.js-text {
+  letter-spacing: 0.2em;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.projects-ctn {
+  background: #fff;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.projects-text {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.projects-text b {
+  font-size: 20px !important;
+  font-weight: 100;
+}
+
+footer {
+  text-align: center;
+  margin-top: 190px;
+  height: auto;
+  color: #fff;
+  width: 100%;
+  background: rgb(122, 122, 122);
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7px;
+  width: 175px;
+  height: auto;
+  margin-top: 35px;
+  padding-left: 27px;
+}
+
+.resume-dwn {
+  text-align: center;
+  margin: 0 0 0 45px;
+}
+
+.contact-me {
+  width: 100%;
+  margin-left: 340px;
+  font-style: normal;
+  font-weight: 100;
+  margin-top: 65px;
+  display: inline-block;
+}
+
+
+
+.contact-form {
+  width: 100%;
+  margin-left: 340px;
+  font-style: normal;
+  font-weight: 100;
+  color: #fff;
+  margin-top: 65px;
+}
+
+input {
+  padding: 15px;
+  margin: 6px;
+  margin-left: auto;
+  width: 60%;
+}
+.contact-form button {
+  width: 150px;
+  height: 45px;
+  border-radius: 0.8vmin;
+  font-weight: 400;
+  background: #19a677;
+  color: #fff;
+  margin-top: 10px;
+} 
+
+
+
